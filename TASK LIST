@@ -1,0 +1,65 @@
+Percetakan dyani
+Pengguna sistem 
+A. Admin (owner.pemilik usaha)
+B. Customer service
+C. Karyawan produksi
+
+Kegiatan pengguna
+A. admin , memonitoring seluruh kegiatan produksi .dari awal sampai selesai (secara detail) memastikan lancarnya kegiatan produksi dan usaha. Owner menyiapkan semua bahan bahan kebutuhan untuk produksi.mencatat semua stok bahan yang tersedia baik masuk atau keluar ( seperti , bahan tintah, kertas banner dll)
+
+B. Customer service , 
+- menerima pesanan dari customer baik spek pesanan, type pesanan, jumlah pesanan, waktu pengambilan. 
+- input data diri Customer/pemesan.
+- Desain.
+- menerima pembayaran (sistem cash/transfer bank, dp separo / langsung lunas )
+- Mencetak nota orderan sesuai pesanan untuk pengambilan produk yg dipesan.
+- menerus  pesanan ke karyawan produksi sesuai permintaan customer.
+- menyerah pesanan ke customer
+
+
+C. Karyawan produksi 
+- Menerima pesanan dari customer service 
+- mencetak pesanan sesuai spek pesanan
+- finishing
+- menyerahkan ke customer service
+
+
+
+Alur yang sekarang berjalan sekarang
+-	Owner mengawasi dan membantu lancarnya kegiatan produksi dan usaha
+-	Customer service menerima pesanan masuk dari customer 
+-	input data diri Customer/pemesan.
+-	Customer service mencatat pesanan sesuai spek permintaan pemesan
+Spek yang di butuhkan : 
+A. Nama type pesanan (exp .banner , stiker bontak,bahan dll)
+B. satuan ukuran (cm, tebal , lembar, dll)
+C. Juamlah (quantity)
+D. Jenis tintah
+E. Jenis finishing ( penambahan seperti mata ayam ,dll)
+
+-	proses desain jika customer tidak membawa desain 
+-	memastikan waktu lamanya proses pengerjaan pesanan .dan waktu pengambilan
+-	Customer Service menghitung jumlah biaya pemesanan termasuk biaya tambahan lainnya (jika ada  tambahan dari customer ).
+-	Menentukan sistem pembayaran pesanan ada yang DP dahulu, atau langsung lunas 
+-	Pelanggan melakukan pembayaran baik cah atau transfer bank ,
+-	Mencetak nota untuk pengambilan pemesanan, lalu di berikan ke customer dan percetakan
+-	Spek pesanan di teruskan ke karyawan produksi (di kantor utara ) 
+-	Proses pembuatan pesanan oleh karyawan produksi ( di gudang selatan )
+-	pengecekan oleh owner atau customer service percetakan dari proses detail pembuatan pesanan yang dilakukan oleh karyawan produksi sampai finishing terakhir
+- 	Jika sudah sesuai permintaan customer, produk pesanan akan di siapkan untuk pengambilan  sesuai dengan waktu lama nya peroses pengambilan yang ada di nota pengambilan.
+
+
+
+
+
+
+Dengan ada nya aplikasi diharapkan :
+1.	Mempermudah alur kerja ,dari proses pesanan masuk sampai selesai karena kantor dan gudang terbagi menjadi dua .
+2.	Owner dapat mengecek semua bahan yang sudah di gunakan (barang yang tersedia untuk produksi seperti jumlah tintah dll di input oleh owner ke aplikasi dan bisa mengecek berapa jumlah persediaan stok bahan mentah yang tersisa dan yg sudah keluar berdasarkan pesanan yang sudah di input oleh customer service )
+3.	Owner dapat meng-cek proses produksi pesanan melalui aplikasi secara detail lewai ID pemesanan ( seperti laporan tahap produksi berupa grafik atau tanda2 didalam aplikasi yg lebih effisien dan mudah karena selama ini owner harus menanyakan proses produksi ke karyawan produksi secara satu persatu dan memilah yang mana harus di selesaikan lebih awal sesuai jangka waktu pemesanan)
+4.	Owner , customer service, karyawan produksi dapat terhubung melalui aplikasi untuk pengecekan barang sesuai spek pesanan .dan proses nya hingga selesai
+5.	Data Customer dapat di gunakan sewaktu waktu jika ada pemesanan ulang 
+6.	Data yang sudah di input oleh customer service dapat di print langsung menjadi sebuah nota 
+7.	Sistem aplikasi dapat menghitung biaya spek pesanan otomatis sesuai dengan spek yang di input oleh custome service dari customer/pemesan .dan akan terjumlah di akhir minggu /bulan ( untuk data pesanan mohon di sediakan field untuk menambah dan menginput data data dan harga harga )
+8.	Sistem pembayaran bisa menghitung biaya brp yang sudah di lunasi dan yang belum terlunasi 
+9.	Pesanan yang sudah jatuh tempo pengambilan atau pelunasan bias di cek di aplikasi, data customer/pemesan bias di cek sesuai id pesanan (memo pengingat)
